@@ -185,8 +185,8 @@ func getDistBetweenColors(pix, pal color.Color) int {
 	bdist := b - pb
 	adist := a - pa
 	// Alter weights for color correction
-	return int((rdist * rdist / 3) +
-		(gdist * gdist / 2) +
+	return int((rdist * rdist / 9 * 2) +
+		(gdist * gdist / 9 * 6) +
 		(bdist * bdist / 9) +
 		(adist * adist))
 }
