@@ -24,15 +24,15 @@ Flag | Type | Description
 -s | bool | if -t=true, smooth edges of image? (default true)
 
 ### Examples
-![Watermill photo by Paul Teysen, with 8x8 cells and C64 palette](https://github.com/mikzorz/color-cell-converter/blob/main/examples/example_watermill.jpg?raw=true)
+![Watermill photo by Paul Teysen, with 8x8 cells and C64 palette](https://raw.githubusercontent.com/mikzorz/color-cell-converter/main/examples/example_watermill.png)
 (original) https://unsplash.com/photos/hthCw4I19-A
 
-![Tokyo street photo by Sergio Rola, with large cells and Pico-8 palette](https://github.com/mikzorz/color-cell-converter/blob/main/examples/example_tokyo.jpg?raw=true)
+![Tokyo street photo by Sergio Rola, with large cells and Pico-8 palette](https://raw.githubusercontent.com/mikzorz/color-cell-converter/main/examples/example_tokyo.png)
 (original) https://unsplash.com/photos/bVM7IO7pt7s
 
 ### _Problem(s)_
 Green tends to be sparse in the converted images.
 Pictures of big, green fields seem to end up either brown or dark blue.
 The color weighting may be off to some degree.
-I will either try to make it more accurate or just let the user adjust it.
+I will either try to make it more accurate or just let the user adjust it themselves.
 It could also be the palettes' limited color selection.
